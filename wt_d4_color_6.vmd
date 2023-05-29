@@ -1,0 +1,136 @@
+
+display projection Orthographic
+color change rgb  32 1 1 1 
+color Display Background 32
+axes location Off
+display depthcue off
+color scale method RGB
+
+
+mol new wt_d4.pdb
+mol modstyle 0 0 NewCartoon {0.300000 50.000000 4.100000 0}
+color change rgb  0 0.0 1.0 0.0
+mol addrep 0
+mol modselect 1 0 resid 6 7 8 9 10 11 12 13 14 15 16 20 21 22 23 24 25 26 27 28 29 30 31 32 112 113 114 115 116 117 118 119 120 121 122 123 124 125 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 160
+mol modstyle 1 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 1 0 ColorID 0
+color change rgb  1 0.1 0.0 0.9
+mol addrep 0
+mol modselect 2 0 resid 68 71
+mol modstyle 2 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 2 0 ColorID 1
+color change rgb  2 0.2 0.0 0.7
+mol addrep 0
+mol modselect 3 0 resid 72
+mol modstyle 3 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 3 0 ColorID 2
+color change rgb  3 0.2 0.0 0.8
+mol addrep 0
+mol modselect 4 0 resid 53 64 65 66 67 69 70
+mol modstyle 4 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 4 0 ColorID 3
+color change rgb  4 0.2 0.5 0.2
+mol addrep 0
+mol modselect 5 0 resid 36
+mol modstyle 5 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 5 0 ColorID 4
+color change rgb  5 0.2 0.7 0.0
+mol addrep 0
+mol modselect 6 0 resid 34
+mol modstyle 6 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 6 0 ColorID 5
+color change rgb  6 0.2 0.8 0.0
+mol addrep 0
+mol modselect 7 0 resid 33 137
+mol modstyle 7 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 7 0 ColorID 6
+color change rgb  7 0.3 0.0 0.7
+mol addrep 0
+mol modselect 8 0 resid 54 55 56 57 58 59 60 62 63 73 74 75 76 77 78 79 80 81 82 83 84
+mol modstyle 8 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 8 0 ColorID 7
+color change rgb  8 0.3 0.3 0.3
+mol addrep 0
+mol modselect 9 0 resid 157
+mol modstyle 9 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 9 0 ColorID 8
+color change rgb  9 0.3 0.7 0.0
+mol addrep 0
+mol modselect 10 0 resid 136 155
+mol modstyle 10 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 10 0 ColorID 9
+color change rgb  10 0.4 0.0 0.6
+mol addrep 0
+mol modselect 11 0 resid 37 39 41 61 85 86 87 88
+mol modstyle 11 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 11 0 ColorID 10
+color change rgb  11 0.4 0.2 0.4
+mol addrep 0
+mol modselect 12 0 resid 17 19
+mol modstyle 12 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 12 0 ColorID 11
+color change rgb  12 0.4 0.4 0.1
+mol addrep 0
+mol modselect 13 0 resid 5
+mol modstyle 13 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 13 0 ColorID 12
+color change rgb  13 0.5 0.0 0.5
+mol addrep 0
+mol modselect 14 0 resid 38 40 44 52 89 90 91
+mol modstyle 14 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 14 0 ColorID 13
+color change rgb  14 0.5 0.2 0.2
+mol addrep 0
+mol modselect 15 0 resid 110
+mol modstyle 15 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 15 0 ColorID 14
+color change rgb  15 0.5 0.2 0.3
+mol addrep 0
+mol modselect 16 0 resid 18 35
+mol modstyle 16 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 16 0 ColorID 15
+color change rgb  16 0.5 0.5 0.0
+mol addrep 0
+mol modselect 17 0 resid 111 134 135 156
+mol modstyle 17 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 17 0 ColorID 16
+color change rgb  17 0.6 0.0 0.4
+mol addrep 0
+mol modselect 18 0 resid 42 43 45 46 47 48 49 50 51 92
+mol modstyle 18 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 18 0 ColorID 17
+color change rgb  18 0.7 0.0 0.3
+mol addrep 0
+mol modselect 19 0 resid 93 109 127 128
+mol modstyle 19 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 19 0 ColorID 18
+color change rgb  19 0.8 0.0 0.2
+mol addrep 0
+mol modselect 20 0 resid 3 4 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 126
+mol modstyle 20 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 20 0 ColorID 19
+color change rgb  20 0.9 0.0 0.1
+mol addrep 0
+mol modselect 21 0 resid 1 2
+mol modstyle 21 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 21 0 ColorID 20
+color change rgb  21 1.0 0.0 0.0
+mol addrep 0
+mol modselect 22 0 resid 129 130 131 132 133 158 159
+mol modstyle 22 0 NewCartoon {0.300000 50.000000 4.100000 0}
+mol modcolor 22 0 ColorID 21
+mol addrep 0
+mol modselect 23 0 resname DHF or resname NDPH
+mol modstyle 23 0 Licorice {0.300000 50.000000 50.000000}
+mol addrep 0
+mol modselect 24 0 resid 94 and name CA
+mol modstyle 24 0 CPK {6.000000 0.300000 40.000000 40.000000}
+mol modcolor 24 0 ColorID 19
+mol addrep 0
+mol modselect 25 0 resid 64 and name CA
+mol modstyle 25 0 CPK {6.000000 0.300000 40.000000 40.000000}
+mol modcolor 25 0 ColorID 3
+mol addrep 0
+mol modselect 26 0 resid 142 and name CA
+mol modstyle 26 0 CPK {6.000000 0.300000 40.000000 40.000000}
+mol modcolor 26 0 ColorID 0
